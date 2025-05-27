@@ -1,6 +1,6 @@
 def call(Map config = [:]) {
-    def email = config.get('email', 'dev-team@example.com')
-    def slackChannel = config.get('slackChannel', '#ci-alerts')
+    def email = config.get('email', 'shreytyagi75@gmail.com')
+    def slackChannel = config.get('slackChannel', '#slack-notification')
     def simulateFailure = config.get('simulateFailure', false)
 
     node {
